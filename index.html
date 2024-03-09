@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style> table,td,th{border: 1px solid black;} 
+     </style>
+    <!--para criar uma borda na tabela , td,th -->
+</head>
+
+<body>
+    <table>
+        <thead> <!--<thead> Agrupa o conteúdo do cabeçalho em uma tabela-->
+<!--Tags de tabela HTML
+Descrição da etiqueta
+<tabela> Define uma tabela
+<th> Define uma célula de cabeçalho em uma tabela
+<tr> Define uma linha em uma tabela
+<td> Define uma célula em uma tabela-->
+       <tr> 
+        <!--Às vezes você deseja que suas células sejam células de cabeçalho de tabela. Nesses casos, use a <th>tag em vez da <td>tag: Por padrão, o texto nos <th>elementos fica em negrito e centralizado, mas você pode alterar isso com CSS.-->
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>informações adicionais do comando git </th>
+       </tr> 
+    </thead>
+
+    <tbody> <!--<tbody> Agrupa o conteúdo do corpo em uma tabela
+    -->
+       <tr>
+        <td>Maria</td> 
+    <!--Cada célula da tabela é definida por um <td>e uma </td>tag.Tudo entre <td>e </td>é o conteúdo da célula da tabela.-->
+        <td>58 anos</td>
+        <td>Sou fazendeira</td>
+       </tr>
+<!--Nota: Uma célula de tabela pode conter todos os tipos de elementos HTML: texto, imagens, listas, links, outras tabelas, etc.-->
+       <tr> <!--Cada linha da tabela começa com um <tr>e termina com uma </tr>tag. tr significa linha da tabela.-->
+        <td rowspan="3">José Alves</td> <!--rowspan="3" ocupa os espaços do nome José ou aumenta as linhas da mesma-->
+        <td>58 Anos</td>
+        <td>Sou mecânico</td>
+       </tr>
+       
+       <tr>
+       <td> Alves</td>
+       <td>58 Anos</td>
+       <td>Sou mecânico</td>
+      </tr>
+
+      <tr>
+        <td >Frankilin</td>
+        <td>58 Anos</td>
+        <td>Sou mecânico</td>
+       </tr>
+    </tbody>
+    </table>
+</body>
+</html>
